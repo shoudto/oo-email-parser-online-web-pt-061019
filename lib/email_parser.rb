@@ -14,8 +14,8 @@ class EmailAddressParser
 
   def parse
     array = []
-    emails.split(", ") do |email|
-    #  binding.pry
+    emails.split(/, | /) do |email|
+     binding.pry
      array << email
     end
     # binding.pry
