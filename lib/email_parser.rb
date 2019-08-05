@@ -12,5 +12,8 @@ class EmailParser
 
  def parse
    array = []
+   emails.split(/, | /) do |email|
+     
+   end 
  end
 end
