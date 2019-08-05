@@ -14,6 +14,6 @@ class EmailParser
    array = []
    emails.split(/, | /) do |email|
      
-   end 
+   end
  end
 end
